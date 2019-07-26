@@ -5,6 +5,7 @@ const indexController = require("./routes/index");
 const mongoose = require("mongoose");
 
 const url = process.env.DATABASE_URL || "mongodb://localhost/mybrary";
+const nada = null;
 
 app.set("view engine", "ejs");
 app.set("views", __dirname + "/views");
